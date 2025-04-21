@@ -1,5 +1,5 @@
 from sqlalchemy import Column,Integer,String,Float
-from .dabase import Base
+from .database import Base
 #Step 2 ORM Class
 class Item(Base):
     __tablename__ = "items"

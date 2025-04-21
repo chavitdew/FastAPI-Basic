@@ -2,7 +2,7 @@ from fastapi import FastAPI,Depends, HTTPException
 from typing import List
 from sqlalchemy.orm import Session
 from .schema import ItemCreated,ItemResponse
-from .dabase import engine,Base,get_db
+from .database import engine,Base,get_db
 from .models import Item
 
 # Create Database
