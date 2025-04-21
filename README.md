@@ -18,7 +18,8 @@ This project demonstrates a simple **CRUD (Create, Read, Update, Delete)** REST 
 - SQLite database for quick setup
 
 ## 📂 Project Structure
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/75bc8deb-95ed-44b5-bfa8-a80ac7a7d7fd)
+
 
 ## ⚙️ Installation & Run
 ### 1. Clone the repo
