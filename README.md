@@ -22,10 +22,10 @@ This project demonstrates a simple **CRUD (Create, Read, Update, Delete)** REST 
 
 ## ⚙️ Installation & Run
 ### 1. Clone the repo
-git clone https://github.com/chavitdew/FastAPI-Basic.git
+git clone https://github.com/chavitdew/FastAPI-Basic.git<br>
 cd FastAPI-Basic
 ### 2. Create virtual environment
-python -m venv venv
+python -m venv venv<br>
 source venv/bin/activate   Windows: venv\Scripts\activate
 ### 3. Install dependencies
 pip install -r requirements.txt
