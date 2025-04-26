@@ -1,9 +1,11 @@
-from sqlalchemy import Column,Integer,String,Float
-from .database import Base
-#Step 2 ORM Class
-class Item(Base):
-    __tablename__ = "items"
-    id = Column(Integer, primary_key=True, index=True)
-    name = Column(String, index=True)
-    description = Column(String, nullable=True)
-    price = Column(Float, nullable=False)
+from typing import Optional
+from sqlmodel import SQLModel,Field,Relationship
+
+
+#Step 2 Model Class
+
+class Item(SQLModel,table=True):
+    id: Optional[int] = Field(primary_key=True,index=True)
+    name: str
+    description: str
+    price: Optional[int]= None
